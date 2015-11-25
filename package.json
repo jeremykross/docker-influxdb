@@ -1,0 +1,24 @@
+{
+  "name": "docker-influxdb",
+  "private": true,
+  "description": "Docker image designed to run an influxdb cluster on ContainerShip",
+  "main": "influxdb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/containership/docker-influxdb.git"
+  },
+  "author": "ContainerShip Developers <developers@containership.io>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/containership/docker-influxdb/issues"
+  },
+  "homepage": "https://github.com/containership/docker-influxdb",
+  "dependencies": {
+    "async": "^1.0.0",
+    "lodash": "^3.9.1",
+    "native-dns": "^0.7.0"
+  }
+}
